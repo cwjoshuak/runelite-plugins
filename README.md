@@ -1,18 +1,8 @@
 
 # Vengeance Helper
+Similar to Thrall Helper,  but for casting Vengeance.
 
-With the Thrall helper idea I ended up developing one for vengeance of lunar magic.
-
-![Example](https://i.imgur.com/zupHQOp.gif)
-
-
-## Reference
-
- - [Thrall Helper](https://github.com/PortAGuy/thrall-helper/tree/a57224b4ba3016a3fffc2b92ad3fcb01f3d0c407)
-## Authors
-
-- [@Th3mike](https://github.com/Th3mike)
-
+![Example](images/vengeance-flashing.gif)
 
 ## FAQ
 
@@ -20,10 +10,16 @@ With the Thrall helper idea I ended up developing one for vengeance of lunar mag
 
 - First you will install using the runelite plugin-hub.
 - After installing you will configure your vengeance helper, you should be on this screen
-![Image](https://i.imgur.com/4ofKfBh.png)
-#### First box ("Flash the Reminder Box")
+![Config Settings](images/config.png)
+
+#### Flash the Reminder Box
 - The first box works as an alert flasher, so you will see a box in the game that will flash red (if you have Photosensitive epilepsy, don't use this option).
-#### Second box ("Notify when vegeance expires")
-- The second box works like the runelite notification, if you don't want to just turn it off.
+#### Notify when vengeance expires
+- The second box will send a Runelite notification, if you don't want to just turn it off.
+#### Only on Lunar Spellbook
+- The third box will hide the overlay when the current Spellbook is NOT Lunar.
 #### Timeout Vengeance Option
-- And finally the third box works as a time limit that you can preset as you wish.
+- The time (in seconds) after which the overlay will hide, after the Vengeance spell is cast.
+
+## Credits
+Project taken over from [@Th3mike](https://github.com/Th3mike)
